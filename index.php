@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="mobileScroll">
   <a href="#" class="mobileNavTriggerLarge" style="display: none;"></a>
   <div class="collegeFeature2">
-  <?php if (function_exists( 'muneeb_ssp_slider')) {muneeb_ssp_slider( 988 );} ?>
+  <?php if (function_exists( 'muneeb_ssp_slider')) {muneeb_ssp_slider( 1404 );} ?>
    </div>
   
   
