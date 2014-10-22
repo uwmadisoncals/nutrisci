@@ -45,7 +45,7 @@
             <div class="clearfix"></div>
        
 
-        <!--Original Hard-Coded Links-->
+        <!--Original Hard-Coded Footer-->
 			<!--<div id="pre-footer">
         	<ul id="quick_links">
             	<li class="quick_links_list">
