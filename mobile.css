@@ -26,9 +26,9 @@
 	}
 	
 		
-	.collegeFeature {
+	.collegeFeature2 {
 		
-		width: 622px;
+		width: 800px;
 	
 	}
 	
@@ -40,7 +40,7 @@
 			
 	.two-column #primary, .two-column.single #primary, .two-column.page #primary {
 		width: auto;
-		padding-right: 230px;
+		/*padding-right: 230px;*/
 	}
 	
 	.two-column #primary #content, .two-column.single #primary #content, .two-column.page #primary #content {
@@ -111,11 +111,11 @@
 	}
 	
 	#main #content {
-		width: 246px;
+		width: 308px;
 	}
 	
 		
-	.collegeFeature {
+	.collegeFeature2 {
 		
 		width: 308px;
 		 
@@ -142,8 +142,6 @@
 		 
 		
 	}
-
-}
 
 
 /* iPads (portrait) ----------- */
