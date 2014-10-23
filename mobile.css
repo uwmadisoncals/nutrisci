@@ -97,16 +97,14 @@
 	}
 	
 	#branding {
+		padding-top: 53px;
 		width: 308px;
-		 
-		
 		
 	}
 	
 	#branding .heading {
 		width: 308px;
-		 
-		
+		height:70px; 
 		
 	}
 	
@@ -143,6 +141,30 @@
 		
 	}
 
+	/*#branding #s {
+	width: 10px;
+	}*/
+
+.navcornerleft, .navcornerright{
+		display:none;
+
+	}
+	#access{
+		margin-top:1em;
+	}
+	#access li{
+		width:96%;
+	}
+
+	#access a{
+		width:96%;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+
+	#access.fixedNav{
+		display:none; /* because it does not work well with scrolling down */
+	}
 
 /* iPads (portrait) ----------- */
 @media only screen
