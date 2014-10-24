@@ -40,7 +40,7 @@
 			
 	.two-column #primary, .two-column.single #primary, .two-column.page #primary {
 		width: auto;
-		/*padding-right: 230px;*/
+		padding-right: 230px;
 	}
 	
 	.two-column #primary #content, .two-column.single #primary #content, .two-column.page #primary #content {
@@ -92,46 +92,45 @@
 /* Screen below 640px ----------- */
 @media only screen and (min-width : 320px) and (max-width : 640px) {
 	#primary {
-		width: 308px;
-		 
+		width: 408px;
 	}
 	
 	#branding {
-		padding-top: 53px;
-		width: 308px;
+		padding-top: 65px;
+		width: 408px;
 		
 	}
 	
 	#branding .heading {
-		width: 308px;
-		height:70px; 
+		width: 408px;
+		/*height:70px;*/ 
+		/*padding-top: 31px;*/
 		
 	}
 	
 	#main #content {
-		width: 308px;
+		width: 408px;
 	}
 	
 		
 	.collegeFeature2 {
 		
-		width: 308px;
+		width: 408px;
 		 
 	}
 	
 	#primary, .single #primary, .page #primary {
-		width: 308px;
+		width: 408px;
 		overflow: hidden;
 		 
 			}
 
 	img {
-		width: 200px;
+		width: 300px;
 	}	
-	
 		
 	footer .inner {
-		width: 308px;
+		width: 408px;
 		 
 	}
 	
@@ -141,9 +140,9 @@
 		
 	}
 
-	/*#branding #s {
-	width: 10px;
-	}*/
+	#branding #s {
+	visibility: hidden;
+	}
 
 .navcornerleft, .navcornerright{
 		display:none;
@@ -153,11 +152,11 @@
 		margin-top:1em;
 	}
 	#access li{
-		width:96%;
+		width:97%;
 	}
 
 	#access a{
-		width:96%;
+		width:97%;
 		text-align: center;
 		border-bottom: 1px solid white;
 	}
