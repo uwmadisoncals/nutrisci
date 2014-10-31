@@ -95,6 +95,14 @@
 		width: 408px;
 	}
 	
+	.wsp_default_skin .flex-caption .headingTitle {
+		font-size: 10px;
+	}
+
+	.wsp_default_skin .flex-caption .flex-caption strong {
+		font-size: 5px;
+	}
+
 	#branding {
 		padding-top: 65px;
 		width: 408px;
