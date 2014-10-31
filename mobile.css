@@ -99,6 +99,10 @@
 		font-size: 10px;
 	}
 
+	.wsp_default_skin p.flex-caption .subHeading {
+		font-size: 5px;
+}
+
 	.wsp_default_skin .flex-caption .flex-caption strong {
 		font-size: 5px;
 	}
