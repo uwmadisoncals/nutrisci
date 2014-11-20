@@ -5,7 +5,9 @@ Description:    Nutrisci child theme for the CALS WP Theme
 Author:         Al Nemec
 Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
 Template:       calswptheme
-Version:        0.1.0
-*/
+Version:        0.1.0*/
+
 @import url("../calswptheme/style.css");
+@import url("../nutrisci/header.php");
+/*@import url("../nutrisci/style1.css");/* Using style1.css for slider plugin adjustments*/
 @import url("../nutrisci/mobile.css");
