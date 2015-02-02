@@ -14,3 +14,7 @@ Version:        0.1.0*/
 /*@import url("../nutrisci/style1.css");/* Using style1.css for slider plugin adjustments*/
 @import url("../nutrisci/mobile.css");
 
+
+.pagenav h3 {
+	font-size: 1em;
+}
