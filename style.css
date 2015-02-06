@@ -18,3 +18,71 @@ Version:        0.1.0*/
 .pagenav h3 {
 	font-size: 1em;
 }
+
+
+
+
+#owl-carousel .item {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: black;
+    min-height: 300px;
+    position:relative;
+    
+}
+
+#owl-carousel .item .itemcontent {
+	
+}
+
+#owl-carousel .item .textContainer {
+	position: absolute;
+	width: 34%;
+	left: 0px;
+	height: 100%;
+	background: black;
+	z-index:3;
+	
+	color: rgba(255,255,255,0.9);
+}
+
+#owl-carousel .item.right .textContainer { 
+	right: 0px;
+	left: auto;
+}
+
+#owl-carousel .item h2 {
+	display: block;
+	font-size: 1.7em;
+	font-weight: 300;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 1em;
+
+}
+
+#owl-carousel .item .excerpt {
+	font-size: 1em;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 1em;
+}
+
+#owl-carousel .item .imgContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 66%;
+	background: black;
+	z-index:2;
+}
+
+#owl-carousel .item.right .imgContainer { 
+	left: 0px;
+	right: auto;
+}

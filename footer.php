@@ -125,5 +125,22 @@
 
 <?php wp_footer(); ?>
 
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-1.9.1.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/owl-carousel/owl.carousel.js"></script>
+<script>
+$(document).ready(function() {
+ 
+  $("#owl-carousel").owlCarousel({
+	  navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      autoPlay : 8000
+  });
+ 
+});
+
+</script>
+
 </body>
 </html>

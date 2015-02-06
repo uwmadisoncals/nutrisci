@@ -16,7 +16,44 @@ get_header(); ?>
 <div class="mobileScroll">
   <a href="#" class="mobileNavTriggerLarge" style="display: none;"></a>
   <div class="collegeFeature2">
-  <?php if (function_exists( 'muneeb_ssp_slider')) {muneeb_ssp_slider( 1404 );} ?>
+  		<!--<?php if (function_exists( 'muneeb_ssp_slider')) {muneeb_ssp_slider( 1404 );} ?>-->
+  		
+  		<div id="owl-carousel" class="owl-carousel">
+	  		
+	  		
+	  		<?php $argsH = array( 'post_type' => 'headerslides', 'posts_per_page' => 5 );
+					$loop = new WP_Query( $argsH );
+					
+					while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+
+						<div class="item clearfix <?php the_field('text_location'); ?>"> 
+							<div class="textContainer" style="background-color: <?php the_field('text_background_color'); ?>">
+								<h2><?php the_title(); ?></h2>
+								<div class="excerpt"><?php the_excerpt(); ?></div>
+							</div>
+							
+							
+
+					    				<?php if ( has_post_thumbnail() ) {
+
+
+						    				$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID),'large' );
+$url = $thumb['0']; ?>
+
+<div class="imgContainer" style="background:url(<?php echo $url; ?>); no-repeat; background-size: cover; background-position: center;"></div>	 
+
+						    				<?php } ?>
+											
+							
+					</div>
+
+					<?php endwhile; ?>
+	  		
+	
+		 
+		
+		</div>
    </div>
   
   

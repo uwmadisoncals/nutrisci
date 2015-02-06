@@ -81,6 +81,13 @@
 	
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/owl-carousel/owl.carousel.css">
+ 
+<!-- Default Theme -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/owl-carousel/owl.theme.css">
+
 <!--[if IE]>
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/ie.css" />
 <![endif]-->
